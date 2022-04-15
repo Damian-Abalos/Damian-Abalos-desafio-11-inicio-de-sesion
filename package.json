@@ -1,0 +1,38 @@
+{
+  "name": "desafio-11-inicio-de-sesion",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.4.1",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "express-session": "^1.17.2",
+    "express-handlebars": "^6.0.4",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "firebase": "^9.6.9",
+    "firebase-admin": "^10.0.2",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.6",
+    "connect-mongo": "^4.6.0",
+    "mysql": "^2.18.1",
+    "knex": "^0.95.9",
+    "cookie-parser": "^1.4.6",
+    "body-parser": "^1.19.2",
+    "@faker-js/faker": "^6.1.1",
+    "normalizr": "^3.6.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "bcrypt": "^5.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
+}
